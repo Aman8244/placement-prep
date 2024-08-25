@@ -4,7 +4,7 @@ import React from 'react'
 const Navbar = () => {
     
     return (
-        <div className="navbar  bg-base-100">
+        <div className="navbar top-0 sticky z-10  bg-[#35374B]">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
@@ -23,7 +23,7 @@ const Navbar = () => {
                     </div>
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        className=" text-black menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                         <li><a>Homepage</a></li>
                         <li><a>Portfolio</a></li>
                         <li><a>About</a></li>
@@ -31,12 +31,12 @@ const Navbar = () => {
                 </div>
             </div>
             <div className="navbar-center">
-                <a className="btn btn-ghost text-xl">
+                <a href='/' className="btn btn-ghost text-xl">
                     Success Mantra 
                 </a>
             </div>
             <div className="navbar-end">
-                <button className="btn btn-outline">
+                <button className="btn btn-outline text-white">
                     Sign In
                 </button>
             </div>
